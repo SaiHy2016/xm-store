@@ -47,37 +47,37 @@
                                     <div class="swiper-container" id="swiper2">
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/1.jpg" alt="">
                                                     100积分兑换
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/1.jpg" alt="">
                                                     100积分兑换
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/1.jpg" alt="">
                                                     100积分兑换
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/2.jpg" alt="">
                                                     100积分兑换
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/2.jpg" alt="">
                                                     100积分兑换
                                                 </a>
                                             </div>
                                             <div class="swiper-slide">
-                                                <a href="" class="per">
+                                                <a href="#info" class="per">
                                                     <img src="img/2.jpg" alt="">
                                                     100积分兑换
                                                 </a>
@@ -93,55 +93,55 @@
                             <div class="card-header">为你推荐</div>
                             <div class="card-content">
                                 <ul class="goods">
-                                    <li class="per-goods">
+                                    <li class="per-goods"><a href='#info'>
                                         <div>
                                             <img src="img/1.jpg" alt="">
                                             <p class="goods-t">【限时秒杀】汉堡王草莓新地买一送一优惠券</p>
                                             <div class="flex-l-r">
                                                 <span class="fen">100积分</span>
-                                                <a href="" class='buy added' disabled>已兑换</a>
+                                                <span class='buy added' disabled>已兑换</span>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </li>
-                                    <li class="per-goods">
+                                    <li class="per-goods"><a href="#info">
                                         <div>
                                             <img src="img/1.jpg" alt="">
                                             <p class="goods-t">【限时秒杀】汉堡王草莓新地买一送一优惠券</p>
                                             <div class="flex-l-r">
                                                 <span class="fen">100积分</span>
-                                                <a href="" class='buy'>兑换</a>
+                                                <span class='buy'>兑换</span>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </li>
-                                    <li class="per-goods">
+                                    <li class="per-goods"><a href="#info">
                                         <div>
                                             <img src="img/1.jpg" alt="">
                                             <p class="goods-t">【限时秒杀】汉堡王草莓新地买一送一优惠券</p>
                                             <div class="flex-l-r">
                                                 <span class="fen">100积分</span>
-                                                <a href="" class='buy'>兑换</a>
+                                                <span class='buy'>兑换</span>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </li>
-                                    <li class="per-goods">
+                                    <li class="per-goods"><a href='#info'>
                                         <div>
                                             <img src="img/1.jpg" alt="">
                                             <p class="goods-t">【限时秒杀】汉堡王草莓新地买一送一优惠券</p>
                                             <div class="flex-l-r">
                                                 <span class="fen">100积分</span>
-                                                <a href="" class='buy'>兑换</a>
+                                                <span href="" class='buy'>兑换</span>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </li>
-                                    <li class="per-goods">
+                                    <li class="per-goods"><a href='#info'>
                                         <div>
                                             <img src="img/1.jpg" alt="">
                                             <p class="goods-t">【限时秒杀】汉堡王草莓新地买一送一优惠券</p>
                                             <div class="flex-l-r">
                                                 <span class="fen">100积分</span>
-                                                <a href="" class='buy'>兑换</a>
+                                                <span href="" class='buy'>兑换</span>
                                             </div>
-                                        </div>
+                                        </div></a>
                                     </li>
                                 </ul>
                                     
@@ -156,6 +156,24 @@
                     <a class="pull-left back icon icon-left">返回</a>
                     <h1 class="title">分类</h1>
                 </header>
+                <div class='content'>
+                    <ul class='sort-l'>
+                        <li data-tar='#sort1' class='active'>分类一</li>
+                        <li data-tar='#sort2'>分类二</li>
+                        <li data-tar='#sort3'>其他</li>
+                    </ul>
+                    <div class='sort-r'>
+                        <div id="sort1">
+                            sort1
+                        </div>
+                        <div id="sort2" style='display:none'>
+                            sort2
+                        </div>
+                        <div id="sort3" style='display:none'>
+                            sort3
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--订单-->
             <div id="order" class="page">
@@ -165,52 +183,62 @@
                 </header>
                 <div class="content">
                   <div class="buttons-tab">
-                    <a href="#tab1" class="tab-link active button">全部</a>
-                    <a href="#tab2" class="tab-link button">待付款</a>
-                    <a href="#tab3" class="tab-link button">待发货</a>
+                    <a href="#tab1" class="tab-link active button">待兑换</a>
+                    <a href="#tab2" class="tab-link button">待发货</a>
+                    <a href="#tab3" class="tab-link button">全部</a>
                   </div>
                     <div class="tabs">
                         <div id="tab1" class="tab active">
                             <div class='list-block media-list'>
                                 <ul>
-                                    <li class='per-order'>
-                                        <label class="label-checkbox item-content">
-                                          <input type="checkbox" name="my-radio">
-                                          <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                                        </label>
-                                        <div class="item-inner">
-                                            全选
-                                        </div>
-                                    </li>
-                                    <li class='per-order'>
-                                        <label class="label-checkbox item-content">
-                                        <input type="checkbox" name="my-radio">
-                                        <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                                        </label>
-                                        <div class="item-inner">
-                                        <div class="item-title-row">
-                                            <div class="item-title">石头</div>
-                                            <div class="item-after">17:14</div>
-                                        </div>
-                                        <div class="item-subtitle">New messages from John Doe</div>
-                                        <div class="item-text">Lorem ipsum dolor sit amet...</div>
-                                        </div>
-                                    </li>
-                                    <li class='per-order'>
-                                        <label class="label-checkbox item-content">
-                                            <input type="checkbox" name="my-radio">
-                                            <div class="item-media"><i class="icon icon-form-checkbox"></i></div>
-                                        </label>
-                                        <div class="item-inner">
-                                            <div class="item-title-row">
-                                            <div class="item-title">剪刀</div>
-                                            <div class="item-after">17:14</div>
+                                    <li class="per-order">
+                                        <span class='checkbox'></span>
+                                        <a href='#info'><div class='per-order-r'>
+                                            <div class='per-order-img'>
+                                                <img src="img/1.jpg" alt="">
                                             </div>
-                                            <div class="item-subtitle">New messages from John Doe</div>
-                                            <div class="item-text">Lorem ipsum dolor sit amet...</div>
-                                        </div>
+                                            <div class='per-order-info'>
+                                                <h5>【限时秒杀】汉堡王草莓新地买一送一优惠券</h5>
+                                                <p>100积分</p>
+                                            </div>
+                                        </div></a>
                                     </li>
+                                   <li class="per-order">
+                                       <span class='checkbox'></span>
+                                       <div class='per-order-r'>
+                                           <div class='per-order-img'>
+                                               <img src="img/1.jpg" alt="">
+                                           </div>
+                                           <div class='per-order-info'>
+                                               <h5>【限时秒杀】汉堡王草莓新地买一送一优惠券</h5>
+                                               <p>100积分</p>
+                                           </div>
+                                       </div>
+                                   </li>
+                                   <li class="per-order">
+                                       <span class='checkbox'></span>
+                                       <div class='per-order-r'>
+                                           <div class='per-order-img'>
+                                               <img src="img/1.jpg" alt="">
+                                           </div>
+                                           <div class='per-order-info'>
+                                               <h5>【限时秒杀】汉堡王草莓新地买一送一优惠券</h5>
+                                               <p>100积分</p>
+                                           </div>
+                                       </div>
+                                   </li>
                                 </ul>
+                            </div>
+                            <div class='pay'>
+                                <div class="all-check">
+                                    <span class='checkbox'></span>
+                                    <div class='pay-l'>
+                                        总价：￥<span>123</span>积分
+                                    </div>
+                                </div>
+                                <div class="pay-r">
+                                    立即兑换
+                                </div>
                             </div>
                         </div>
                         <div id="tab2" class="tab">
@@ -244,10 +272,63 @@
             </div>
             <!--我的积分-->
             <div class="page" id="my">
-                <header class="bar bar-nav">
-                    <a class="pull-left back icon icon-left">返回</a>
-                    <h1 class="title">我的积分</h1>
-                </header>
+                
+                <div class="content">
+                    <header class="bar bar-nav">
+                        <a class="pull-left back icon icon-left">返回</a>
+                        <h1 class="title">我的积分<a href="#know">积分规则</a></h1>
+                    </header>
+                    <div class="list-block contacts-block">
+                    <div class="list-group">
+                        <ul>
+                            <li class="list-group-title">我的积分：<span>100</span></li>
+                            <li>
+                                <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">
+                                        <span class='point'>消费：10积分</span>
+                                        <span class='time'>2017-5-1</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">
+                                        <span class='point'>消费：10积分</span>
+                                        <span class='time'>2017-5-1</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">
+                                        <span class='point'>消费：10积分</span>
+                                        <span class='time'>2017-5-1</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">
+                                        <span class='point'>消费：10积分</span>
+                                        <span class='time'>2017-5-1</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
 
             </div>
             <!--兑换须知-->
@@ -285,6 +366,14 @@
                    
                </div>
             </div>
+            <!--商品详情-->
+            <div id="info" class="page">
+                <header class="bar bar-nav">
+                    <a class="pull-left back icon icon-left">返回</a>
+                    <h1 class="title">详情</h1>
+                </header>
+
+            </div>
 
         </div>
 
@@ -297,10 +386,18 @@
     <script src="js/sm.min.js"></script>
     <script src="js/swiper-3.4.2.jquery.min.js"></script>
     <script>
-       $(function() {
 
-            $.init();
-            
+    $(document).on("pageInit", function(e, pageId, $page) {
+        if(pageId == "sort"){
+            $('#sort .sort-l').click(function (e) {
+                var tar=e.target
+                $(tar).addClass('active').siblings().removeClass('active')
+                $('#sort .sort-r>div').hide(); 
+                console.log($(tar).attr('data-tar'));
+                $($(tar).attr('data-tar')).show()
+             })
+        }
+        if(pageId == "main"){
             // 轮播
             var mySwiper1 = new Swiper ('#swiper1', {
               pagination: '.swiper-pagination',
@@ -313,27 +410,49 @@
               spaceBetween: 30,
               freeMode: true
             })
+        }
+        //订单
+        if(pageId=='order'){
+            $('.checkbox').click(function (){
+                $(this).toggleClass('checked')
+             })
+             $('.all-check .checkbox').click(function (){
+                 $('.per-order .checkbox').attr('class',$(this).attr('class'))
+             })
+            $('.per-order .checkbox').click(function(){
+                console.log($('.per-order .checkbox.checked').length)
+                console.log($(this).parents('ul').find('.per-order').length)
+                if($('.per-order .checkbox.checked').length==$(this).parents('ul').find('.per-order').length){
+                    $('.all-check .checkbox').addClass('checked')
+                }else{
+                    $('.all-check .checkbox').removeClass('checked')
+                }
+            })
+        }
+        //积分须知
+        if(pageId=='know'){
+            $('#know .card-header').click(function(){
+                $(this).next().toggle(350).parent().siblings('.card').find('.card-content').slideUp()
+            })
+        }
+        
+    });
 
+       $(function() {
+
+            $.init();
+            
             // 购买
-            $('.buy').click(function(){
-                if(this.className=='buy'){
+            $('.buy').click(function(e){
+                e.preventDefault()
+                e.stopPropagation()
+                if(!$(this).hasClass('added')){
                     $.toast('已加入我的订单')
                     $(this).addClass('added').html('已兑换')
                 }
             })
-            //订单
-            $('#order #tab1 li:first-child label').click(function(){
-                $(this).parent().siblings().find('input').prop('checked',function(i,v){
-                    return !v
-                })
-            })
-
-           //积分须知
-           $('#know .card-header').click(function(){
-               $(this).next().toggle(350).parent().siblings('.card').find('.card-content').slideUp()
-           })
-
-        });
+            
+        })
 
     </script>
     </body>

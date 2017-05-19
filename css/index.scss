@@ -102,7 +102,10 @@ header.bar{background-color: #fff}
     display: flex;
     .fen{
         flex:1;
-        color: $hotcol;
+        >span{
+            color: $hotcol;
+            margin-right: .2rem;
+        }
     }
     .buy{
         flex: 1;
@@ -141,8 +144,8 @@ header.bar{background-color: #fff}
             margin-left: .75rem;
             span{
                 color:#d32;
-                margin: 0 .4rem;
-                font-size: 1.2em;
+                margin: 0 .2rem;
+                font-size: 1.6em;
             }
         }
         .pay-r{
@@ -158,7 +161,7 @@ header.bar{background-color: #fff}
        display: flex;
        align-items: center;
         .checkbox{
-            margin: 0;
+            margin:4px 0 0 0;
         }
    }
 
@@ -190,8 +193,12 @@ header.bar{background-color: #fff}
                     margin:.4rem 0;
                 }
                 >p{
-                    color: $hotcol;
-                    margin: .5em;
+                    margin:0 .5em;
+                    .per-fen{
+                        color: $hotcol;
+                        font-size: 1.4em;
+                        margin-right: .5rem;
+                    }
                 }
             }
 
@@ -301,4 +308,75 @@ header.bar{background-color: #fff}
         justify-content:space-between;
         width: 100%
     }
+}
+.toast-added{
+    margin-left: -72px!important;
+}
+.toast-info{
+     margin-left: -80px!important;
+}
+#info{
+    .content{
+        padding-bottom: 2.6rem;
+    }
+    .info-footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background:#fefefe;
+        height: 2.6rem;
+        line-height: 2.6rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 .5rem;
+        z-index: 100;
+         box-shadow: 0 -1px 50px #eee;
+        .i-l{
+            span{
+                color: $hotcol;
+                font-size: 1.6em;
+                margin: 0 .2rem;
+            }
+        }
+        .i-r{
+            background: #e40077;
+            color: #fff;
+            height: 2rem;
+            line-height: 2rem;
+            border-radius: .4em;
+            padding: 0 .5em;
+        }
+    }
+    .card{
+        margin: 0;
+        border-top: 1px solid #fafafa;
+    }
+    .color-gray{
+        margin:0;
+    }
+    .hot-t{
+        border-left:.2rem solid $hotcol;
+    }
+    .intro{
+        h3{
+            margin: 0;
+        }
+        .fen{
+            span{
+                color:$hotcol;
+                font-size: 1.4em;
+                margin-right: .2rem;
+            }
+        }
+    }
+    .msg{
+        display: block;
+        font-size: .8rem;
+        textarea{
+            box-shadow: 0 0 1px #ccc;
+            margin: .5rem 0;
+        }
+    }
+   
 }

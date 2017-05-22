@@ -43,9 +43,9 @@ header.bar{background-color: #fff}
     color:$basesortcol;
 }
 .sort .icon-know{
-    width: 1.8rem;
+    width: 1.7rem;
     display: block;
-    margin:.12rem auto;
+    margin:.2rem auto;
 }
 .hot .card{
     margin-left: 0;
@@ -190,15 +190,17 @@ header.bar{background-color: #fff}
             }
             .per-order-info{
                 >h5{
-                    margin:.4rem 0;
+                    margin:.2rem 0 0 0;
                 }
                 >p{
                     margin:0 .5em;
                     .per-fen{
                         color: $hotcol;
-                        font-size: 1.4em;
                         margin-right: .5rem;
                     }
+                }
+                .addres{
+                    font-size: .8em;
                 }
             }
 

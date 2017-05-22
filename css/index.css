@@ -48,9 +48,9 @@ header.bar {
 }
 
 .sort .icon-know {
-  width: 1.8rem;
+  width: 1.7rem;
   display: block;
-  margin: .12rem auto;
+  margin: .2rem auto;
 }
 
 .hot .card {
@@ -231,7 +231,7 @@ header.bar {
 }
 
 #tab1 .per-order .per-order-r .per-order-info > h5 {
-  margin: .4rem 0;
+  margin: .2rem 0 0 0;
 }
 
 #tab1 .per-order .per-order-r .per-order-info > p {
@@ -240,8 +240,11 @@ header.bar {
 
 #tab1 .per-order .per-order-r .per-order-info > p .per-fen {
   color: #e40077;
-  font-size: 1.4em;
   margin-right: .5rem;
+}
+
+#tab1 .per-order .per-order-r .per-order-info .addres {
+  font-size: .8em;
 }
 
 .checkbox {

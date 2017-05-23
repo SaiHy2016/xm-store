@@ -170,7 +170,7 @@ header.bar {
   height: 2.6rem;
   justify-content: space-between;
   align-items: center;
-  padding: 0 .75rem;
+  padding: 0 .5rem;
 }
 
 #order .pay .pay-l {
@@ -211,6 +211,7 @@ header.bar {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e7e7e7;
+  position: relative;
 }
 
 #tab1 .per-order .checkbox {
@@ -223,7 +224,7 @@ header.bar {
 }
 
 #tab1 .per-order .per-order-r .per-order-img {
-  flex: 0 0 6rem;
+  flex: 0 0 5rem;
 }
 
 #tab1 .per-order .per-order-r .per-order-img img {
@@ -232,6 +233,7 @@ header.bar {
 
 #tab1 .per-order .per-order-r .per-order-info > h5 {
   margin: .2rem 0 0 0;
+  word-break: break-all;
 }
 
 #tab1 .per-order .per-order-r .per-order-info > p {
@@ -247,13 +249,30 @@ header.bar {
   font-size: .8em;
 }
 
+#tab1 .per-order .per-order-r .per-order-info .leave-msg {
+  font-size: .8em;
+}
+
+#tab1 .per-order .dele {
+  width: 0;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background: #e40077;
+  color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
 .checkbox {
   width: 1rem;
   height: 1rem;
   display: inline-block;
   border-radius: 50%;
   border: 1px solid #c7c7cc;
-  margin: 0 .75rem;
+  margin: 0 .5rem;
   position: relative;
   vertical-align: middle;
   transition: all .4s;

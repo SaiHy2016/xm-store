@@ -139,7 +139,7 @@ header.bar{background-color: #fff}
         height: 2.6rem;
         justify-content: space-between;
         align-items: center;
-        padding:0 .75rem;
+        padding:0 .5rem;
         .pay-l{
             margin-left: .75rem;
             span{
@@ -176,6 +176,7 @@ header.bar{background-color: #fff}
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #e7e7e7;
+        position: relative;
         .checkbox{
             flex: 0 0 auto;
         }
@@ -183,7 +184,7 @@ header.bar{background-color: #fff}
             display: flex;
             align-items: center;
             .per-order-img{
-                flex:0 0 6rem;
+                flex:0 0 5rem;
                 img{
                     width: 100%
                 }
@@ -191,6 +192,7 @@ header.bar{background-color: #fff}
             .per-order-info{
                 >h5{
                     margin:.2rem 0 0 0;
+                    word-break: break-all;
                 }
                 >p{
                     margin:0 .5em;
@@ -202,8 +204,23 @@ header.bar{background-color: #fff}
                 .addres{
                     font-size: .8em;
                 }
+                .leave-msg{
+                    font-size: .8em;
+                }
             }
 
+        }
+        .dele{
+            width:0;
+            position: absolute;
+            right: 0;
+            height: 100%;
+            background:$hotcol;
+            color: #fefefe;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
         }
     }
 }
@@ -214,7 +231,7 @@ header.bar{background-color: #fff}
     display: inline-block;
     border-radius: 50%;
     border: 1px solid #c7c7cc;
-    margin:0 .75rem;
+    margin:0 .5rem;
     position: relative;
     vertical-align: middle;
     transition: all .4s;

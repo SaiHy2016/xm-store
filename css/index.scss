@@ -169,7 +169,6 @@ header.bar{background-color: #fff}
 
 
 }
-
 #tab1{
     padding-bottom: 2.6rem;
     .per-order{
@@ -399,6 +398,9 @@ header.bar{background-color: #fff}
 .toast-8{
     margin-left: -80px!important;
 }
+.toast-11{
+    margin-left: -104px!important;
+}
 #info{
     .content{
         padding-bottom: 2.6rem;
@@ -537,6 +539,13 @@ header.bar{background-color: #fff}
         width: 50%;
         margin: .75rem auto;
     }
+    a[href="#manage"]{
+        position: absolute;
+        right: 0;
+        margin-right: .75rem;
+        color: #8fc320;
+        line-height: 2.2rem;
+    }
 }
 #become{
     .list-block{
@@ -556,5 +565,61 @@ header.bar{background-color: #fff}
     }
     .list-block .item-media+.item-inner{
         margin-left: 0;
+    }
+}
+#manage{
+    .list-block{
+        margin-top: 0;
+    }
+    .item-after{
+        color: $hotcol;
+    }
+}
+#modify{
+    .list-block{
+        margin-top: 0;
+    }
+    ul{
+        padding-bottom: .5rem;
+    }
+    .button-success {
+        max-width: 50%;
+        margin:.75rem auto;
+    }
+}
+
+.uploadImgBox{
+    padding: 0 .75rem;
+    .imgList {
+        display: flex;
+        padding-left: 0;
+        margin-bottom: .5rem;
+        flex-flow: row wrap;
+        li{
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            margin: .5rem .5rem .5rem 0;
+            position: relative;
+            span{
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                font-size: 1.2em;
+                background: #000;
+                border-radius: 50%;
+                color:#fff;
+                position: absolute;
+                right: 0;
+                top: 0;
+                margin: -10px -10px 0 0;
+            }
+        }
+    }
+    input {
+        display: none;
     }
 }

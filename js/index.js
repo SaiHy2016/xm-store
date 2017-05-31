@@ -101,8 +101,12 @@ $(document).on("pageInit", function (e, pageId, $page) {
     }
     //发布商品
     if (pageId == 'seller') {
+
+
+        
+        //电话验证
         $('#seller').find('input[type="tel"]').blur(function () {
-            !/^1[3|4|5|8][0-9]\d{4,8}$/.test($(this).val()) && $.toast('手机号格式不正确', 2000, 'toast-8')
+            !/^1[3|4|5|8|7][0-9]\d{4,8}$/.test($(this).val()) && $.toast('手机号格式不正确', 2000, 'toast-8')
         })
          $('#imgListPost').click(function (e) {
              var tar = e.target
@@ -114,6 +118,9 @@ $(document).on("pageInit", function (e, pageId, $page) {
     }
     //修改商品
     if (pageId == 'modify') {
+
+
+
         $('#imgListModify').click(function (e) {
             var tar=e.target
             if (tar.nodeName == 'SPAN') {
